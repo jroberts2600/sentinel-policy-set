@@ -3,7 +3,6 @@ policy "bridgecrew" {
   enforcement_level = "advisory"
 }
 
-policy "enforce-mandatory-tags" {
-    source = "./enforce-mandatory-tags.sentinel"
-    enforcement_level = "advisory"
+policy "test_rule" {
+    enforcement_level = "soft-mandatory"
 }
